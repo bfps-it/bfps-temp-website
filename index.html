@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Baba Farid Public School | ICSE & ISC Affiliated | PU170</title>
+<meta name="description" content="Baba Farid Public School - ICSE and ISC affiliated school in Punjab, India. Part of Baba Farid Group of Institutions. Admissions open for Nursery to Class 12.">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{colors:{navy:'#1A3C6E',blue2:'#2563EB',cyan2:'#0EA5E9',cta:'#DC2626',green2:'#16A34A',light:'#EFF6FF'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+*{font-family:'Inter',sans-serif}
+.fade-up{opacity:0;transform:translateY(30px);transition:all .6s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.float-anim{animation:float 3s ease-in-out infinite}
+@keyframes pulse-glow{0%,100%{box-shadow:0 0 5px rgba(37,99,235,.4)}50%{box-shadow:0 0 20px rgba(37,99,235,.8)}}
+.glow{animation:pulse-glow 2s ease-in-out infinite}
+.hero-bg{background:linear-gradient(135deg,#1A3C6E 0%,#1e4a85 40%,#2563EB 100%)}
+</style>
+</head>
+<body class="bg-white text-gray-800">
+
+<!-- TOP BAR -->
+<div class="bg-navy text-white text-sm py-2">
+<div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-between items-center gap-2">
+<div class="flex items-center gap-4">
+<a href="tel:9315200786" class="hover:text-cyan2 transition"><i class="fas fa-phone mr-1"></i>93152-00786</a>
+<a href="mailto:info@bfpsedu.in" class="hover:text-cyan2 transition"><i class="fas fa-envelope mr-1"></i>info@bfpsedu.in</a>
+</div>
+<div class="flex items-center gap-3">
+<a href="https://facebook.com/BFPSMedia" target="_blank" class="hover:text-cyan2 transition"><i class="fab fa-facebook-f"></i></a>
+<a href="https://instagram.com/bfpsmedia" target="_blank" class="hover:text-cyan2 transition"><i class="fab fa-instagram"></i></a>
+<a href="https://whatsapp.com/channel/0029Va9CbFWDTkKAeGTBkM0b" target="_blank" class="hover:text-cyan2 transition"><i class="fab fa-whatsapp"></i></a>
+</div>
+</div>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar" class="bg-white shadow-md sticky top-0 z-50 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
+<a href="#" class="flex items-center gap-3">
+<img src="logo.png" alt="Baba Farid Public School Logo" class="h-12 w-12 rounded-full object-cover">
+<div class="flex flex-col">
+<span class="text-navy font-extrabold text-lg leading-tight">Baba Farid Public School</span>
+<span class="text-xs text-gray-500">Part of Baba Farid Group of Institutions</span>
+</div>
+</a>
+<div class="hidden md:flex items-center gap-6 text-sm font-medium">
+<a href="#home" class="text-navy hover:text-blue2 transition">Home</a>
+<a href="#about" class="text-navy hover:text-blue2 transition">About</a>
+<a href="#programs" class="text-navy hover:text-blue2 transition">Programs</a>
+<a href="#admissions" class="text-navy hover:text-blue2 transition">Admissions</a>
+<a href="#contact" class="text-navy hover:text-blue2 transition">Contact</a>
+</div>
+<button id="menuBtn" class="md:hidden text-navy text-2xl"><i class="fas fa-bars"></i></button>
+</div>
+<div id="mobileMenu" class="hidden md:hidden bg-white border-t px-4 pb-4 space-y-3">
+<a href="#home" class="block py-2 text-navy font-medium">Home</a>
+<a href="#about" class="block py-2 text-navy font-medium">About</a>
+<a href="#programs" class="block py-2 text-navy font-medium">Programs</a>
+<a href="#admissions" class="block py-2 text-navy font-medium">Admissions</a>
+<a href="#contact" class="block py-2 text-navy font-medium">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero-bg text-white py-20 md:py-32 relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute top-10 left-10 w-72 h-72 bg-cyan2 rounded-full blur-3xl"></div>
+<div class="absolute bottom-10 right-10 w-96 h-96 bg-blue2 rounded-full blur-3xl"></div>
+</div>
+<div class="max-w-7xl mx-auto px-4 text-center relative z-10">
+<img src="logo.png" alt="Baba Farid Public School Logo" class="w-28 h-28 md:w-36 md:h-36 rounded-full mx-auto mb-6 border-4 border-white/30 shadow-2xl object-cover bg-white/10">
+<div class="inline-block bg-white/10 backdrop-blur border border-white/20 rounded-full px-5 py-2 text-sm mb-6">Part of Baba Farid Group of Institutions</div>
+<h1 class="text-4xl md:text-6xl font-black mb-4 tracking-tight">Baba Farid Public School</h1>
+<p class="text-lg md:text-xl text-blue-200 mb-2">ICSE & ISC Affiliated | Affiliation Code: PU170</p>
+<p class="text-2xl md:text-3xl font-bold text-cyan-300 mb-6 italic">"Join and Grow With Us"</p>
+<p class="max-w-2xl mx-auto text-blue-100 mb-8 text-lg">A launchpad for young minds to experiment, think critically, stay relentless, gaze at the universe, and act as caring stewards of Earth.</p>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#admissions" class="bg-cta hover:bg-red-700 text-white px-8 py-3 rounded-lg font-bold text-lg transition transform hover:scale-105 shadow-lg">Apply for Admission</a>
+<a href="https://wa.me/919915852055" target="_blank" class="bg-green2 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-bold text-lg transition transform hover:scale-105 shadow-lg"><i class="fab fa-whatsapp mr-2"></i>WhatsApp Us</a>
+</div>
+</div>
+</section>
+
+<!-- STATS -->
+<section class="bg-navy text-white py-8">
+<div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+<div><p class="text-3xl font-black">700+</p><p class="text-blue-200 text-sm">Students</p></div>
+<div><p class="text-3xl font-black">60+</p><p class="text-blue-200 text-sm">Expert Faculty</p></div>
+<div><p class="text-3xl font-black">ICSE & ISC</p><p class="text-blue-200 text-sm">Board Affiliated</p></div>
+<div><p class="text-3xl font-black">2000+</p><p class="text-blue-200 text-sm">Established Since</p></div>
+</div>
+</section>
+
+<!-- VISION & MISSION -->
+<section id="about" class="py-20 bg-light">
+<div class="max-w-7xl mx-auto px-4">
+<h2 class="text-3xl md:text-4xl font-black text-navy text-center mb-12">Vision & Mission</h2>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="fade-up bg-white rounded-2xl p-8 shadow-lg border-t-4 border-blue2">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mb-4"><i class="fas fa-eye text-2xl text-blue2"></i></div>
+<h3 class="text-2xl font-bold text-navy mb-4">Our Vision</h3>
+<p class="text-xl font-semibold text-blue2 mb-3 italic">Empowering Education to Discover the Universe.</p>
+<p class="text-gray-600 leading-relaxed">It is about igniting curiosity, fostering exploration, and unlocking potential to understand the world and beyond. A call to inspire minds, push boundaries, and shape the future.</p>
+</div>
+<div class="fade-up bg-white rounded-2xl p-8 shadow-lg border-t-4 border-cyan2">
+<div class="w-14 h-14 bg-cyan2/10 rounded-xl flex items-center justify-center mb-4"><i class="fas fa-rocket text-2xl text-cyan2"></i></div>
+<h3 class="text-2xl font-bold text-navy mb-4">Our Mission</h3>
+<p class="text-gray-600 mb-4">To empower students in experiential learning, scientific thinking and tenacious young minds to explore the cosmos and foster global citizenship of our planet.</p>
+<ul class="space-y-3 text-gray-600">
+<li class="flex gap-3"><i class="fas fa-hands text-blue2 mt-1"></i><span><strong>Hands-on Learning</strong> — Letting kids learn by doing, feeling knowledge not just hearing it</span></li>
+<li class="flex gap-3"><i class="fas fa-flask text-blue2 mt-1"></i><span><strong>Scientific Thinking</strong> — Cultivating curiosity, evidence-based reasoning, problem-solving mindsets</span></li>
+<li class="flex gap-3"><i class="fas fa-fire text-blue2 mt-1"></i><span><strong>Tenacious Minds</strong> — Instilling grit and perseverance so they chase the stars without fear</span></li>
+<li class="flex gap-3"><i class="fas fa-star text-blue2 mt-1"></i><span><strong>Explore the Cosmos</strong> — Inspiring wonder about space, physics, the universe</span></li>
+<li class="flex gap-3"><i class="fas fa-globe text-blue2 mt-1"></i><span><strong>Global Citizenship</strong> — Teaching responsibility, empathy, sustainability, and respect</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- WHY CHOOSE BFPS -->
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4">
+<h2 class="text-3xl md:text-4xl font-black text-navy text-center mb-4">Why Choose BFPS?</h2>
+<p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto">BFPS is not just schooling. It is a launchpad.</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="fade-up bg-light rounded-2xl p-6 text-center hover:shadow-lg transition group">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue2 group-hover:text-white transition"><i class="fas fa-chalkboard-teacher text-2xl text-blue2 group-hover:text-white"></i></div>
+<h4 class="font-bold text-navy mb-2">Experienced PGT Faculty</h4><p class="text-sm text-gray-500">From across India</p>
+</div>
+<div class="fade-up bg-light rounded-2xl p-6 text-center hover:shadow-lg transition group">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue2 group-hover:text-white transition"><i class="fas fa-robot text-2xl text-blue2 group-hover:text-white"></i></div>
+<h4 class="font-bold text-navy mb-2">Exclusive Robotics Lab</h4><p class="text-sm text-gray-500">Classes 4–9 & 11</p>
+</div>
+<div class="fade-up bg-light rounded-2xl p-6 text-center hover:shadow-lg transition group">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue2 group-hover:text-white transition"><i class="fas fa-language text-2xl text-blue2 group-hover:text-white"></i></div>
+<h4 class="font-bold text-navy mb-2">German Language</h4><p class="text-sm text-gray-500">Classes 6–12</p>
+</div>
+<div class="fade-up bg-light rounded-2xl p-6 text-center hover:shadow-lg transition group">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue2 group-hover:text-white transition"><i class="fas fa-desktop text-2xl text-blue2 group-hover:text-white"></i></div>
+<h4 class="font-bold text-navy mb-2">Mega Computer Lab</h4><p class="text-sm text-gray-500">100+ Systems</p>
+</div>
+<div class="fade-up bg-light rounded-2xl p-6 text-center hover:shadow-lg transition group">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue2 group-hover:text-white transition"><i class="fas fa-atom text-2xl text-blue2 group-hover:text-white"></i></div>
+<h4 class="font-bold text-navy mb-2">NEET & JEE Coaching</h4><p class="text-sm text-gray-500">Classes 6–12</p>
+</div>
+<div class="fade-up bg-light rounded-2xl p-6 text-center hover:shadow-lg transition group">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue2 group-hover:text-white transition"><i class="fas fa-bed text-2xl text-blue2 group-hover:text-white"></i></div>
+<h4 class="font-bold text-navy mb-2">AC Hostel Facilities</h4><p class="text-sm text-gray-500">From Class 4</p>
+</div>
+<div class="fade-up bg-light rounded-2xl p-6 text-center hover:shadow-lg transition group">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue2 group-hover:text-white transition"><i class="fas fa-bus text-2xl text-blue2 group-hover:text-white"></i></div>
+<h4 class="font-bold text-navy mb-2">AC Transport</h4><p class="text-sm text-gray-500">Cities & Villages</p>
+</div>
+<div class="fade-up bg-light rounded-2xl p-6 text-center hover:shadow-lg transition group">
+<div class="w-14 h-14 bg-blue2/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue2 group-hover:text-white transition"><i class="fas fa-music text-2xl text-blue2 group-hover:text-white"></i></div>
+<h4 class="font-bold text-navy mb-2">Music, Art, Dance & Sports</h4><p class="text-sm text-gray-500">Holistic Development</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROGRAMS -->
+<section id="programs" class="py-20 bg-light">
+<div class="max-w-7xl mx-auto px-4">
+<h2 class="text-3xl md:text-4xl font-black text-navy text-center mb-4">Academic Programs</h2>
+<p class="text-center text-gray-500 mb-12">Nurturing Excellence from Nursery to Class 12</p>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="fade-up bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition border-l-4 border-cyan2">
+<div class="text-4xl mb-3">🌱</div>
+<h4 class="text-xl font-bold text-navy mb-2">Primary</h4>
+<p class="text-sm text-gray-500 mb-3">Nursery – Class 3</p>
+<p class="text-gray-600 text-sm">Building strong foundations through play-based and experiential learning in a nurturing environment.</p>
+</div>
+<div class="fade-up bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition border-l-4 border-blue2">
+<div class="text-4xl mb-3">📚</div>
+<h4 class="text-xl font-bold text-navy mb-2">Middle School</h4>
+<p class="text-sm text-gray-500 mb-3">Class 4 – Class 8</p>
+<p class="text-gray-600 text-sm">Developing critical thinking with robotics lab access, German language, and STEM-focused curriculum.</p>
+</div>
+<div class="fade-up bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition border-l-4 border-navy">
+<div class="text-4xl mb-3">🔬</div>
+<h4 class="text-xl font-bold text-navy mb-2">Secondary</h4>
+<p class="text-sm text-gray-500 mb-3">Class 9 – Class 10 (ICSE)</p>
+<p class="text-gray-600 text-sm">ICSE board preparation with integrated NEET/JEE foundation coaching and advanced lab facilities.</p>
+</div>
+<div class="fade-up bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition border-l-4 border-cta">
+<div class="text-4xl mb-3">🎓</div>
+<h4 class="text-xl font-bold text-navy mb-2">Senior Secondary</h4>
+<p class="text-sm text-gray-500 mb-3">Class 11 – Class 12 (ISC)</p>
+<p class="text-gray-600 text-sm">ISC streams available:</p>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="bg-blue2/10 text-blue2 text-xs font-semibold px-2 py-1 rounded">Engineering</span>
+<span class="bg-green2/10 text-green2 text-xs font-semibold px-2 py-1 rounded">Medical</span>
+<span class="bg-yellow-100 text-yellow-700 text-xs font-semibold px-2 py-1 rounded">Commerce</span>
+<span class="bg-purple-100 text-purple-700 text-xs font-semibold px-2 py-1 rounded">Humanities</span>
+<span class="bg-cyan2/10 text-cyan2 text-xs font-semibold px-2 py-1 rounded">Computer Sc.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ADMISSIONS -->
+<section id="admissions" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4">
+<div class="max-w-3xl mx-auto">
+<div class="text-center mb-10">
+<span class="inline-block bg-cta/10 text-cta font-bold text-sm px-4 py-1 rounded-full mb-4">NOW OPEN</span>
+<h2 class="text-3xl md:text-4xl font-black text-navy mb-2">Admissions Open 2026–27</h2>
+<p class="text-gray-500">Nursery to Class 12 | ICSE & ISC Board</p>
+</div>
+<form class="fade-up bg-light rounded-2xl p-8 shadow-lg space-y-4" onsubmit="event.preventDefault();alert('Thank you! Our team will contact you within 24 hours.');">
+<div>
+<label class="block text-sm font-semibold text-navy mb-1">Student Name</label>
+<input type="text" required placeholder="Enter student's full name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue2 focus:ring-2 focus:ring-blue2/20 outline-none transition">
+</div>
+<div>
+<label class="block text-sm font-semibold text-navy mb-1">Parent's Phone Number</label>
+<input type="tel" required placeholder="Enter phone number" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue2 focus:ring-2 focus:ring-blue2/20 outline-none transition">
+</div>
+<div>
+<label class="block text-sm font-semibold text-navy mb-1">Class Applying For</label>
+<select required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue2 focus:ring-2 focus:ring-blue2/20 outline-none transition bg-white">
+<option value="">Select Class</option>
+<option>Nursery</option><option>LKG</option><option>UKG</option>
+<option>Class 1</option><option>Class 2</option><option>Class 3</option><option>Class 4</option><option>Class 5</option>
+<option>Class 6</option><option>Class 7</option><option>Class 8</option><option>Class 9</option><option>Class 10</option>
+<option>Class 11</option><option>Class 12</option>
+</select>
+</div>
+<button type="submit" class="w-full bg-cta hover:bg-red-700 text-white font-bold py-3 rounded-lg transition transform hover:scale-[1.02] shadow-md">Submit Enquiry</button>
+<p class="text-center text-sm text-gray-500"><i class="fas fa-clock mr-1"></i>Our team will contact you within 24 hours</p>
+</form>
+<div class="text-center mt-6">
+<a href="https://wa.me/919915852055?text=Hi%2C%20I%20am%20interested%20in%20admission%20at%20BFPS" target="_blank" class="inline-flex items-center gap-2 bg-green2 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-lg transition"><i class="fab fa-whatsapp text-xl"></i>Chat on WhatsApp</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 bg-light">
+<div class="max-w-7xl mx-auto px-4">
+<h2 class="text-3xl md:text-4xl font-black text-navy text-center mb-12">Contact Us</h2>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="fade-up space-y-6">
+<div class="flex gap-4 items-start">
+<div class="w-12 h-12 bg-blue2/10 rounded-xl flex items-center justify-center shrink-0"><i class="fas fa-map-marker-alt text-blue2 text-xl"></i></div>
+<div><h4 class="font-bold text-navy">Address</h4><p class="text-gray-600">Baba Farid Public School,<br>Village Killianwali, Killianwali to Waring Khera Road,<br>VPO Killianwali, Block Lambi, Tehsil Malout,<br>Muktsar, Punjab, 151211</p></div>
+</div>
+<div class="flex gap-4 items-start">
+<div class="w-12 h-12 bg-blue2/10 rounded-xl flex items-center justify-center shrink-0"><i class="fas fa-phone text-blue2 text-xl"></i></div>
+<div><h4 class="font-bold text-navy">Phone</h4><p class="text-gray-600"><a href="tel:9315200786" class="hover:text-blue2">93152-00786</a> | <a href="tel:9315900786" class="hover:text-blue2">93159-00786</a></p></div>
+</div>
+<div class="flex gap-4 items-start">
+<div class="w-12 h-12 bg-green2/10 rounded-xl flex items-center justify-center shrink-0"><i class="fab fa-whatsapp text-green2 text-xl"></i></div>
+<div><h4 class="font-bold text-navy">WhatsApp</h4><p class="text-gray-600"><a href="https://wa.me/919915852055" class="hover:text-green2">+91 9915852055</a></p></div>
+</div>
+<div class="flex gap-4 items-start">
+<div class="w-12 h-12 bg-blue2/10 rounded-xl flex items-center justify-center shrink-0"><i class="fas fa-envelope text-blue2 text-xl"></i></div>
+<div><h4 class="font-bold text-navy">Email</h4><p class="text-gray-600"><a href="mailto:info@bfpsedu.in" class="hover:text-blue2">info@bfpsedu.in</a></p></div>
+</div>
+</div>
+<div class="fade-up rounded-2xl overflow-hidden shadow-lg h-72 bg-gray-200">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13691.5!2d74.3!3d29.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDQ4JzAwLjAiTiA3NMKwMTgnMDAuMCJF!5e0!3m2!1sen!2sin!4v1" width="100%" height="100%" style="border:0" allowfullscreen loading="lazy"></iframe>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-navy text-white py-12">
+<div class="max-w-7xl mx-auto px-4">
+<div class="grid md:grid-cols-3 gap-8 mb-8">
+<div>
+<h3 class="text-xl font-bold mb-2">Baba Farid Public School</h3>
+<p class="text-blue-200 text-sm mb-1">Part of Baba Farid Group of Institutions</p>
+<p class="text-blue-200 text-sm mb-1">MSME Registered Institution</p>
+<p class="text-blue-200 text-sm">ICSE & ISC Affiliated | PU170</p>
+</div>
+<div>
+<h4 class="font-bold mb-3">Quick Links</h4>
+<div class="space-y-2 text-sm text-blue-200">
+<a href="#home" class="block hover:text-white transition">Home</a>
+<a href="#about" class="block hover:text-white transition">About</a>
+<a href="#programs" class="block hover:text-white transition">Programs</a>
+<a href="#admissions" class="block hover:text-white transition">Admissions</a>
+<a href="#contact" class="block hover:text-white transition">Contact</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-3">Connect With Us</h4>
+<div class="flex gap-3 mb-4">
+<a href="https://facebook.com/BFPSMedia" target="_blank" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-blue2 transition"><i class="fab fa-facebook-f"></i></a>
+<a href="https://instagram.com/bfpsmedia" target="_blank" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-pink-600 transition"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/919915852055" target="_blank" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-green2 transition"><i class="fab fa-whatsapp"></i></a>
+<a href="https://whatsapp.com/channel/0029Va9CbFWDTkKAeGTBkM0b" target="_blank" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-blue-500 transition"><i class="fab fa-telegram-plane"></i></a>
+</div>
+<p class="text-sm text-blue-200">info@bfpsedu.in</p>
+<p class="text-sm text-blue-200">93152-00786 | 93159-00786</p>
+</div>
+</div>
+<div class="border-t border-white/10 pt-6 text-center text-sm text-blue-300">
+<p>&copy; 2026 Baba Farid Public School. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/919915852055" target="_blank" class="fixed bottom-6 right-6 bg-green2 hover:bg-green-700 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-xl z-50 transition transform hover:scale-110 glow">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+const mb=document.getElementById('menuBtn'),mm=document.getElementById('mobileMenu');
+mb.addEventListener('click',()=>mm.classList.toggle('hidden'));
+mm.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mm.classList.add('hidden')));
+const obs=new IntersectionObserver(e=>e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')}),{threshold:.1});
+document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
